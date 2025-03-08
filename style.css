@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.separator {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.separator span {
+    flex: 1;
+    background: #dbdbdb;
+    height: 1px;
+    position: relative;
+}
+
+.separator span::before {
+    content: "ATAU";
+    background: white;
+    padding: 0 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.fb-login {
+    background: none;
+    color: #385185;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.forgot {
+    display: block;
+    margin-top: 10px;
+    color: #00376b;
+    font-size: 12px;
+}
+
+.signup-box {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #dbdbdb;
+    background: white;
+}
+
+.signup-box a {
+    color: #3897f0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.download-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.download-links img {
+    width: 130px;
+    margin: 5px;
+}
